@@ -1,10 +1,9 @@
 {
   "server": "dvd.chat",
   "home-timeline-length": 200,
-  "max-followings": 80,
+  "max-followings": 800,
   "from-notifications": 1,
-  "max-bookmarks": 80,
-  "max-followers": 80,
-  "max-favourites": 80,
-  "reply-interval-in-hours": 24
+  "max-bookmarks": 800,
+  "max-followers": 800,
+  "max-favourites": 800
 }
