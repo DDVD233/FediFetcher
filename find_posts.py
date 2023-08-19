@@ -877,7 +877,7 @@ def add_context_url(url, server, access_token):
     try:
         resp = get(search_url, headers={
             "Authorization": f"Bearer {access_token}",
-        })
+        }, timeout=30)
     except Exception as ex:
         log(
             f"Error adding url {search_url} to server {server}. Exception: {ex}"
